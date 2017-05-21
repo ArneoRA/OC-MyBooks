@@ -52,3 +52,20 @@ Ce commit comprend :
 La récupération et la copie des fichiers BootStrap et Jquery dans le répertoire lib
 Création des fichiers Views : layout, index et book
 Mise à jour du fichier ReadMe
+
+
+# 4th commit :
+En Français :
+
+This commit includes :
+Creating the Book and Author classes in the directory: src \ Domain
+Creation of the DAO class allowing the basic management thanks to Doctrine \ DBAL
+Creation of BookDAO class
+Creation of AuthorDAO class
+
+## Traduction en Français
+Ce commit comprend :
+Création des classes Book et Author se trouvant dans le répertoire : src\Domain
+Création de la classe DAO permettant la gestion de base grace à Doctrine\DBAL
+Création de la classe BookDAO
+Création de la classe AuthorDAO
