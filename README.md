@@ -54,8 +54,8 @@ Création des fichiers Views : layout, index et book
 Mise à jour du fichier ReadMe
 
 
-# 4th commit :
-En Français :
+# 4th commit : Creation of the Book, Author, DAO, BookDAO and AuthorDAO classes
+En Français : Créations des classes Book, Author, DAO, BookDAO et AuthorDAO
 
 This commit includes :
 Creating the Book and Author classes in the directory: src \ Domain
@@ -69,3 +69,15 @@ Création des classes Book et Author se trouvant dans le répertoire : src\Domai
 Création de la classe DAO permettant la gestion de base grace à Doctrine\DBAL
 Création de la classe BookDAO
 Création de la classe AuthorDAO
+
+
+# 5th commit : Creating app.php and routes.php files and config folder
+En Français : Création des fichiers app.php et routes.php et dossier config
+
+This commit includes :
+Creating the app.php and routes.php files as well as the configuration files in the app folder
+
+## Traduction en Français
+Ce commit comprend :
+Création des fichiers app.php et routes.php ainsi que les fichiers de configuration dans le dossier app
+
