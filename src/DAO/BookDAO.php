@@ -8,23 +8,23 @@ use OCMyBooks\Domain\Book;
 class BookDAO extends DAO
 {
     /**
-     * Retourne une liste de tous les articles triés par date décroissante. *
+     * Returns a list of all books sorted in descending order.
      * @return array A list of all books.
-     * C'est équivalent à getArticles créé précédemment */
+     */
     public function findAll() {
         $sql = "select * from book order by book_id desc";
         $result = $this->getDb()->fetchAll($sql);
 
-        // Converti le resultat de la requete en tableau d'objets du domaine
+
         $books = array();
         foreach ($result as $row) {
-            $bookId = $row['id'];
+            $bookId = $row['book_id'];
             $books[$bookId] = $this->buildDomainObject($row);
         }
         return $books;
     }
     /**
-     * Renvoie un article correspondant à l'identifiant fourni en *
+     * Returns a book corresponding to the ID
      * @param integer $id
      * @return \OCMyBooks\Domain\Book
      */
@@ -36,7 +36,7 @@ class BookDAO extends DAO
             return $this->buildDomainObject($row);
         else
             throw new \Exception("No book matching id " . $id);
-        /*Sort si une exception est trouvé : aucun article correspondant n'est trouvé*/
+
     }
 
     /**
@@ -45,11 +45,11 @@ class BookDAO extends DAO
      */
     protected function buildDomainObject(array $row) {
         $book = new Book();
-        $book->setId($row['id']);
-        $book->setTitle($row['title']);
-        $book->setIsbn($row['isbn']);
-        $book->setSummary($row['summary']);
-        $book->setAuthid($row['authid']);
+        $book->setId($row['book_id']);
+        $book->setTitle($row['book_title']);
+        $book->setIsbn($row['book_isbn']);
+        $book->setSummary($row['book_summary']);
+        $book->setAuthid($row['auth_id']);
         return $book;
     }
 

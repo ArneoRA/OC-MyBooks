@@ -19,6 +19,11 @@
          * @var [type]
          */
         private $aLastName;
+        /**
+         * Associed Book
+         * @var OCMyBooks\Domain\Book
+         */
+        private $aBook;
 
         /**
          * GETTERS
@@ -32,6 +37,9 @@
 
         public function getALastName()
         {   return $this->aLastName;  }
+
+        public function getABook()
+        {   return $this->aBook;  }
 
         /**
          * SETTERS
@@ -50,4 +58,11 @@
             $this->aLastName = $aLastName;
             return $this;
         }
+
+        public function setABook(Book $aBook) {
+        $this->aBook = $aBook;
+        return $this;
+    }
+
+
     }

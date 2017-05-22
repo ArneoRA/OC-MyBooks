@@ -81,3 +81,27 @@ Creating the app.php and routes.php files as well as the configuration files in 
 Ce commit comprend :
 Création des fichiers app.php et routes.php ainsi que les fichiers de configuration dans le dossier app
 
+
+# 6th Commit: Corrections and adjustments to several key files
+En Français : Corrections et ajustements sur plusieurs fichiers clés
+
+This commit includes:
+Creating .htaccess and index.php files in the web folder
+Fixes and file adjustments:
+AuthorDAO.php
+BookDAO.php
+Author.php
+book.html.twig
+routes.php
+compose
+
+## Traduction en Français
+Ce commit comprend :
+Création des fichiers .htaccess et index.php dans le dossier web
+Corrections et ajustements des fichiers :
+AuthorDAO.php
+BookDAO.php
+Author.php
+book.html.twig
+routes.php
+composer

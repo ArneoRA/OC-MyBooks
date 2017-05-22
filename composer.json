@@ -8,6 +8,6 @@
     },
 
     "autoload": {
-        "psr-4": {"OC-MyBooks\\": "src"}
+        "psr-4": {"OCMyBooks\\": "src"}
     }
 }
