@@ -33,7 +33,7 @@ class AuthorDAO extends DAO
     }
 
     /*** Creates an Comment object based on a DB row.
-     ** @param array $row The DB row containing Comment data.
+     ** @param array $result The DB result containing Author data.
      ** @return \OCMyBooks\Domain\Author */
     protected function buildDomainObject(array $result) {
         $author = new Author();

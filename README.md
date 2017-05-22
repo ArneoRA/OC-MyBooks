@@ -105,3 +105,20 @@ Author.php
 book.html.twig
 routes.php
 composer
+
+
+# 7th Commit: Adjustment to the quality of the requested code
+En Français : Ajustements par rapport à la qualité de code demandé
+
+This commit includes:
+Fixes and file adjustments:
+AuthorDAO.php
+index.html.twig
+app.php
+
+## Traduction en Français
+Ce commit comprend :
+Corrections et ajustements des fichiers :
+AuthorDAO.php
+index.html.twig
+app.php
